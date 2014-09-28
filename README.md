@@ -11,7 +11,8 @@ The following assumes Ubuntu 14.04 64-bit
 ### Install pip
 
 ```
-sudo apt-get install -U python-pip
+sudo apt-get install python-pip
+sudo pip install -U pip
 ```
 
 ### Setup Virtualenv
@@ -25,13 +26,13 @@ source virtualenv/bin/activate
 ### Install script requirements
 
 ```
-sudo pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Install MongoDB and Nginx
 
 ```
-sudo apt-get install mongodb
+sudo apt-get install mongodb nginx
 ```
 
 ### Register for API Keys and Generate Random String for Flask
