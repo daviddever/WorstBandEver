@@ -1,0 +1,14 @@
+Flask==0.10.1
+Jinja2==2.7.3
+MarkupSafe==0.23
+Werkzeug==0.9.6
+argparse==1.2.1
+basicauth==0.2
+gunicorn==19.1.0
+httplib2==0.9
+itsdangerous==0.24
+pymongo==2.7.2
+python-oauth2==0.7.0
+requests==2.3.0
+tweepy==2.3.0
+wsgiref==0.1.2
